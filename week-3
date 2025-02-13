@@ -1,0 +1,30 @@
+What is TensorFlow, and what are its key features?
+TensorFlow is an open-source machine learning framework developed by Google. Its key features include automatic differentiation, support for deep learning, deployment on multiple platforms (CPU, GPU, TPU), and the ability to build and train models using computation graphs.
+
+What is the main difference between TensorFlow and PyTorch in terms of computation graphs?
+TensorFlow uses static computation graphs (defined before execution), while PyTorch uses dynamic computation graphs (built on-the-fly during execution), making PyTorch more flexible for debugging and research.
+
+What is Keras, and on which frameworks can it run?
+Keras is a high-level neural network API that simplifies deep learning model building. It can run on top of TensorFlow, Theano, and Microsoft Cognitive Toolkit (CNTK).
+
+What are the key features of Scikit-learn?
+Scikit-learn provides simple and efficient tools for data mining and machine learning, including classification, regression, clustering, dimensionality reduction, model selection, and preprocessing.
+
+What is the purpose of Jupyter Notebooks, and what are its key features?
+Jupyter Notebooks provide an interactive computing environment for code execution, visualization, and documentation. Key features include support for multiple programming languages, inline plotting, markdown support, and interactive widgets.
+
+In the TensorFlow example provided, what is the purpose of the Dropout layer in the neural network?
+The Dropout layer prevents overfitting by randomly setting a fraction of input units to zero during training, improving model generalization.
+
+What is the role of the optimizer in the PyTorch example, and which optimizer is used?
+The optimizer updates model parameters to minimize the loss function. The commonly used optimizer in PyTorch is Adam, which combines momentum and adaptive learning rates.
+
+In the Keras example, what is the purpose of the Conv2D layer?
+The Conv2D layer extracts spatial features from input images using convolutional filters, essential for tasks like image recognition.
+
+What type of model is used in the Scikit-learn example, and what dataset is it applied to?
+The Scikit-learn example typically uses a classification or regression model, such as a Decision Tree, Random Forest, or Support Vector Machine (SVM). It is commonly applied to datasets like the Iris dataset, Boston Housing dataset, or MNIST (for digits classification).
+
+What is the output of the Jupyter Notebook example, and which library is used to generate the visualization?
+The output of the Jupyter Notebook example is usually a graph, chart, or table displaying data insights. The library used for visualization is often Matplotlib or Seaborn for static plots, or Plotly for interactive visualizations.
+
